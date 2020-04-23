@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        <link rel="stylesheet" type = "text/css" href="{%static 'style.css'%}">
+        <link href="https://fonts.googleapis.com/css?family=Barlow|Dosis|Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <h3>ENTER THE DETAILS OF THE APPLICATION</h3>
+        <br><br><br>
+        <form action="result/" method="POST">
+        {% csrf_token %}
+        <input type="text" name="category" placeholder="CATEGORY">
+        <br><br><br><br><br>
+        <input type="text" name="size" placeholder="SIZE">
+        <br><br><br><br>
+        <input type="submit" value="SUBMIT">
+        <br>
+        <input type="text" name="price" placeholder="PRICE">
+        <br><br><br><br><br>
+        <input type="text" name="content" placeholder="CONTENT RATING">
+        <br><br><br><br><br>
+        <input type="text" name="genres" placeholder="GENRES">
+        <br><br><br><br><br>
+        <input type="text" name="andver" placeholder="ANDROID VERSION">
+    </form>
+    </body>
+</html>

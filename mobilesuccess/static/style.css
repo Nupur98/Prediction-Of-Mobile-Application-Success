@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.credits{
+    float: right;
+    margin-right: 2%;
+}
+button{
+    height: 7%;
+    width: 15%;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+    background-color: #8A56AC;
+    color: white;
+    font-family: Rubik;
+}
+h2{
+    color: white;
+    font-family: Rubik;
+}
+h3{
+    color: white;
+    font-family: Barlow;
+}
+p{
+    color: white;
+    font-family: Dosis;
+}
+
+input[type="text"]{
+    height: 7%;
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    border: none;
+}
+input[type="submit"]{
+    height: 7%;
+    width: 15%;
+    float: right;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #8A56AC;
+    color: white;
+    font-family: Rubik;
+    border: none;
+    margin-right: 13%;
+}
+
+form{
+    margin-top: 2%;
+}
+h4{
+    color: white;
+    font-family: Barlow;
+}
+
+h5
+{
+    height: 5%;
+    width: 25%;
+    margin-left: 38%;
+    color: white;
+    font-family: Barlow;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #8A56AC;
+    padding-top: 1%;
+}
+
+select{
+    height: 7%;
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    border: none;
+}

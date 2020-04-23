@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+        <link rel="stylesheet" type = "text/css" href="{%static 'style.css'%}">
+        <link href="https://fonts.googleapis.com/css?family=Barlow|Dosis|Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/">
+        {% csrf_token %}
+        <br><br>
+        <h2>PREDICTION</h2>
+        <br><br><br><br><br><br><br><br><br>
+        <h4>YOUR PREDICTED SCORE IS</h4>
+        <h5>{{output}}</h5>
+        <br><br><br><br><br>
+        <h2>THANK YOU</h2>
+    </form>
+    </body>
+</html>
